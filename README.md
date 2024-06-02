@@ -120,6 +120,7 @@ Completely impractical for all but the smallest inputs.
 If the input size increases by one, the time required multiplies by the current size of the input.
 
 
+
 # Space Complexity
 
 ## O(1) - Constant Space
