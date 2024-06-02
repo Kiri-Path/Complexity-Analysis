@@ -1,4 +1,4 @@
-# Complexity-Analysis
+# Time complexity
 
 
 ## O(1) - Constant Time
@@ -118,3 +118,87 @@ Completely impractical for all but the smallest inputs.
 
 #### Practical Understanding: 
 If the input size increases by one, the time required multiplies by the current size of the input.
+
+
+# Space Complexity
+
+## O(1) - Constant Space
+
+#### Description: 
+Memory usage is constant, regardless of input size.
+
+#### Implications - Good: 
+Best possible space complexity, extremely efficient.
+
+#### Practical Understanding: 
+Memory usage remains constant regardless of dataset size.
+
+## O(log n) - Logarithmic Space
+
+#### Description: 
+Memory usage grows logarithmically with input size.
+
+#### Implications - Good: 
+Efficient memory usage, particularly for algorithms that halve the problem size.
+
+#### Practical Understanding: 
+Memory usage increases very slowly as input size grows.
+
+
+## O(n) - Linear Space
+
+#### Description: 
+Memory usage grows linearly with input size.
+
+#### Implications - Moderate: 
+Generally efficient but becomes significant with very large datasets.
+
+#### Practical Understanding: 
+Doubling the input size doubles the memory usage.
+
+
+## O(n log n) - Linearithmic Space
+
+#### Description: 
+Memory usage grows proportionally to n times the logarithm of n.
+
+#### Implications - Moderate: 
+Efficient for many practical applications, though higher than linear space.
+
+#### Practical Understanding: 
+Slightly more than linear but still manageable for large datasets.
+
+
+## O(n^2) - Quadratic Space
+
+#### Description: 
+Memory usage grows quadratically with input size.
+
+#### Implications - Bad: 
+Memory usage becomes impractical for large input sizes.
+
+#### Practical Understanding: 
+Doubling the input size quadruples the memory usage.
+
+
+## O(2^n) - Exponential Space
+
+#### Description: 
+Memory usage doubles with each addition to the input size.
+
+#### Implications - Very Bad: 
+Becomes impractical very quickly as input size increases.
+
+#### Practical Understanding: 
+Increasing input size by one doubles the memory usage.
+
+
+## O(n!) - Factorial Space
+
+#### Description: Memory usage grows factorially with input size.
+
+#### Implications - Extremely Bad: 
+Memory usage grows extraordinarily fast, becoming impractical for most inputs.
+
+#### Practical Understanding: 
+Increasing input size by one multiplies memory usage by the new size.
