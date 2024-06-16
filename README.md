@@ -1,5 +1,35 @@
 # Time complexity
 
+## What is BIG O Time Complexity?
+
+A way of analysing the run time [y-axis] for our algorithm to execue whilst our input size (n) [x-axis] grows
+typically we could assume as 'n' grows the time would increase
+
+It can grow linearly i.e as n increases why increases with a constant gradient. regardless of the type of straight line it would be O(n) compelxity there we dont care for any constants.
+
+The most basic is a straight line with NO GRADIENT. I.e if n increases it takes exactly the same time to execute O(1)
+
+examples of O(n)
+ - looping through elemnts
+ - inserting to middle of array , inserting end of an array
+
+examples of O(n^2)
+  - nested loops where essentially you are doing a matrix operation
+  - note if you do a nested loop where one of the lists is different size from the other then it is O(nm)
+  - if you have a single array which you iterate through, if you go through it 2 times it will be O(2n)....but if you go through it 'n' times it will be O(n*n) which would be O(n^2)
+
+examples of O(logn)
+  - typically on binary search. typically when we keep splitting the array in half till we find our search value
+  - in binary search, we essential keep halving until we reach 1. in other words n/2 and recurssively divide by 2 until we reach 1 .
+  - in other words
+    (1*2)^x = n
+    2^x = n
+    log2^x = log n
+    xlog2 = log n
+    x = log n/ log 2
+    x = log n (base 2)
+     
+ 
 
 ## O(1) - Constant Time
 
